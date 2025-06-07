@@ -1,0 +1,210 @@
+* {
+padding: 0;
+margin: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+scroll-behavior: smooth;
+outline: none;
+border: none;
+}
+
+
+.container{
+margin: auto;
+width: 90%;
+}
+
+.clear-fix{
+clear: both;
+}
+
+/* home */
+.home {
+background-image: url(../imgs/shutterstock_277750193.jpg);
+background-position: center;
+background-size: cover;
+text-align: center;
+height: 100vh;
+}
+
+.content{
+padding-top: 100px;
+color: white;
+}
+
+.content h1 {
+margin-bottom: 20px;
+}
+
+.content p {
+color: white;
+margin-bottom: 10px;
+}
+
+.content button {
+padding: 10px 15px;
+cursor: pointer;
+}
+
+.content .btn-1{
+background-color: darkgoldenrod;
+}
+
+.nav{
+background-color: rgb(0 , 0 , 0 , 0.5)
+}
+
+.nav .logo img{
+width: 100px;
+height: auto;
+}
+
+.nav .logo{
+float: left;
+}
+
+.nav .navbar {
+float: right;
+padding-top: 20px;
+}
+
+.navbar li {
+float: left;
+margin: 0 20px;
+}
+
+.navbar li a{
+color: white;
+}
+
+
+/* story */
+.story{
+padding: 50px 10px;
+text-align: center;
+}
+
+
+.story-image{
+float: left;
+width: 40%;
+}
+
+.story-image img{
+width: 100%;
+display: block;
+}
+
+.story-content {
+width: 60%;
+float: right;
+padding-top: 100px;
+}
+
+
+.story-content p{
+margin-bottom: 20px;
+line-height: 1.7;
+}
+
+.story-content h2 {
+margin-bottom: 20px;
+}
+
+.story-content button {
+padding: 10px 15px;
+border: 2px solid black;
+background-color: transparent;
+cursor: pointer;
+}
+
+
+/* bg image */
+.bg-image{
+background-image: url(../imgs/bg.jpg);
+height: 50vh;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+
+/* gallery */
+.gallery{
+padding-block: 50px;
+padding-inline: 5px;
+}
+
+.demo{
+width: calc(100% / 4);
+float: left;
+text-align: center;
+}
+
+.demo h2 {
+text-transform: uppercase;
+}
+
+.demo p {
+line-height: 1.5;
+}
+
+.demo img {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
+
+
+.border{
+background-color: tomato;
+margin-block : 20px;
+height: 3px;
+width: 30%;
+margin-inline: auto;
+}
+
+@media screen and (max-width : 576px) {
+.logo{
+float: none;
+display: block;
+width: 100%;
+text-align: center;
+}
+
+.nav{
+padding-block: 5px;
+}
+
+.navbar{
+float: none;
+text-align: center;
+display: block;
+float: none;
+width: 100%;
+}
+
+.navbar li {
+float: none;
+margin: 0 10px;
+display: inline-block;
+}
+
+.story-image , .story-content {
+display: block;
+width: 100%;
+}
+
+.gallery .demo {
+display: block;
+width: 100%;
+}
+
+
+
+
+
+
+}
